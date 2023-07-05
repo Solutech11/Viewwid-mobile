@@ -4,10 +4,10 @@
     "slug": "view_wid",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./imgs/ico.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./imgs/ico.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./imgs/ico.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.solutech.view_wid"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./imgs/ico.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fde55035-0f0e-454a-a057-919f09c23228"
+      }
     }
   }
 }
